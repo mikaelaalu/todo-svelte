@@ -21,5 +21,5 @@ const onSubmit = (e) => {
 <form on:submit={onSubmit} class='taskForm'>
     <label for='task'>Task</label>
     <input class='inputField' type='text'  bind:value={task.title}>
-    <button class='submitBtn' type='submit'> Add task</button>
+    <button class='redBtn' type='submit'> Add task</button>
 </form>
